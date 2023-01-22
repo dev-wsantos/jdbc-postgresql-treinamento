@@ -55,9 +55,9 @@ public class Usuario {
 		StringBuilder builder = new StringBuilder();
 
 		builder
-			.append("Usuario [id]: ").append(id)
-			.append(", [nome]: ").append(nome)
-			.append(", [email]: ").append(email);
+			.append("id: ").append(id)
+			.append(", nome: ").append(nome)
+			.append(", email:").append(email);
 
 		return builder.toString();
 	}
