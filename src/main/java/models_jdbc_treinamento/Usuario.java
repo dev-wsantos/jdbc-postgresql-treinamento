@@ -7,7 +7,7 @@ public class Usuario {
 	private Long id;
 	private String nome;
 	private String email;
-	
+
 	public Long getId() {
 		return id;
 	}
@@ -51,7 +51,7 @@ public class Usuario {
 
 	@Override
 	public String toString() {
-		
+
 		StringBuilder builder = new StringBuilder();
 
 		builder
@@ -61,8 +61,5 @@ public class Usuario {
 
 		return builder.toString();
 	}
-	
-	
-	
-	
+
 }

@@ -27,7 +27,6 @@ public class SingleConnection {
 				Class.forName("org.postgresql.Driver");
 				connection = DriverManager.getConnection(url, usuario, senha);
 				connection.setAutoCommit(false);
-				System.out.println("Conectado com sucesso!");
 			}
 			
 		} catch (Exception e) {
